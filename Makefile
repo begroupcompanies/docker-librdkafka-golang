@@ -1,4 +1,4 @@
-IMAGE?=astronomerio/alpine-librdkafka-golang:1.9-0.11.0-r0
+IMAGE?=vesninandrey/golang-librdkafka:1.12.1-0.11.4
 
 build:
 	docker build -t $(IMAGE) .
