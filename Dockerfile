@@ -1,4 +1,4 @@
-FROM golang:1.12.1
+FROM golang:1.16
 
 ENV LIBRDKAFKA_REF=v0.11.4
 
